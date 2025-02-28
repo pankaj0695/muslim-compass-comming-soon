@@ -73,7 +73,7 @@ function App() {
         ref={cardRef}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
-        className="tilt-card relative bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 max-w-5xl w-full border border-green-100 flex flex-col items-center justify-center min-h-[70vh]"
+        className="tilt-card relative bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-6 md:p-12 max-w-5xl w-full border border-green-100 flex flex-col items-center justify-center min-h-[70vh]"
       >
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
           {/* Logo and Content */}
@@ -87,7 +87,7 @@ function App() {
             <img
               src="/muslim-compass-logo.png"
               alt="Muslim Compass Logo"
-              className="w-36 h-36 object-contain relative animate-float"
+              className="w-28 h-28 md:w-36 md:h-36 object-contain relative animate-float"
             />
           </motion.div>
 
@@ -136,11 +136,11 @@ function App() {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.5 }}
-            className="flex flex-wrap justify-center gap-6 md:gap-10"
+            className="flex flex-wrap justify-center gap-4 md:gap-10"
             style={{ transform: "translateZ(50px)" }}
           >
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-xl flex items-center justify-center text-2xl md:text-3xl font-bold shadow-lg">
+              <div className="w-12 h-12 md:w-24 md:h-24 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-xl flex items-center justify-center text-xl md:text-3xl font-bold shadow-lg">
                 {days}
               </div>
               <span className="text-sm mt-2 text-green-800 font-medium">
@@ -148,7 +148,7 @@ function App() {
               </span>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-xl flex items-center justify-center text-2xl md:text-3xl font-bold shadow-lg">
+              <div className="w-12 h-12 md:w-24 md:h-24 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-xl flex items-center justify-center text-xl md:text-3xl font-bold shadow-lg">
                 {hours}
               </div>
               <span className="text-sm mt-2 text-green-800 font-medium">
@@ -156,7 +156,7 @@ function App() {
               </span>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-xl flex items-center justify-center text-2xl md:text-3xl font-bold shadow-lg">
+              <div className="w-12 h-12 md:w-24 md:h-24 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-xl flex items-center justify-center text-xl md:text-3xl font-bold shadow-lg">
                 {minutes}
               </div>
               <span className="text-sm mt-2 text-green-800 font-medium">
@@ -164,7 +164,7 @@ function App() {
               </span>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-xl flex items-center justify-center text-2xl md:text-3xl font-bold shadow-lg">
+              <div className="w-12 h-12 md:w-24 md:h-24 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-xl flex items-center justify-center text-xl md:text-3xl font-bold shadow-lg">
                 {seconds}
               </div>
               <span className="text-sm mt-2 text-green-800 font-medium">
