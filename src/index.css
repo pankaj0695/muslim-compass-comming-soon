@@ -16,6 +16,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     fixed;
+  height: 100vh;
 }
 
 .tilt-card {
@@ -36,8 +37,13 @@ body {
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .animate-float {
@@ -45,7 +51,7 @@ body {
 }
 
 .font-serif {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .bg-gold-500 {

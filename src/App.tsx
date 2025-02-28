@@ -60,7 +60,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden islamic-pattern">
+    <div className="absolute inset-0 w-full h-full flex flex-col items-center justify-center p-4 overflow-hidden islamic-pattern">
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-0 w-96 h-96 bg-green-600 rounded-full filter blur-3xl opacity-10 -translate-x-1/2 -translate-y-1/2"></div>
