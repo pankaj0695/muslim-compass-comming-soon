@@ -81,13 +81,13 @@ function App() {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="mb-8 relative"
+            className="mb-6 md:mb-8 relative"
           >
             <div className="absolute -inset-4 bg-green-100 rounded-full opacity-50 animate-pulse"></div>
             <img
               src="/muslim-compass-logo.png"
               alt="Muslim Compass Logo"
-              className="w-28 h-28 md:w-36 md:h-36 object-contain relative animate-float"
+              className="w-24 h-24 md:w-36 md:h-36 object-contain relative animate-float"
             />
           </motion.div>
 
@@ -115,7 +115,7 @@ function App() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.5 }}
-            className="text-gray-600 mb-16 max-w-md"
+            className="text-gray-600 mb-10 md:mb-16 max-w-md"
             style={{ transform: "translateZ(20px)" }}
           >
             Connecting you with events, opportunities, and resources in your
@@ -126,7 +126,7 @@ function App() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.5 }}
-            className="text-3xl md:text-5xl font-bold text-green-800 mb-10 font-serif"
+            className="text-3xl md:text-5xl font-bold text-green-800 mb-8 md:mb-10 font-serif"
           >
             COMING SOON
           </motion.h2>
